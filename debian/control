@@ -1,0 +1,10 @@
+Source: ralt-awesome
+Maintainer: Florian Margaine <florian@margaine.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: ralt-awesome
+Architecture: any
+Depends: ${misc:Depends}, awesome, wicd, wicd-gtk
+Description: my awesome configuration
