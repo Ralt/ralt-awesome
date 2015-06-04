@@ -5,6 +5,7 @@
 
 override_dh_auto_install:
 	dh_auto_install
+	install -m 644 debian/services/xtrlock.service debian/ralt-awesome/etc/systemd/system
 	install -m 644 debian/awesome/rc.lua debian/ralt-awesome/etc/xdg/awesome/
 	install -m 644 debian/awesome/freedesktop/utils.lua debian/ralt-awesome/etc/xdg/awesome/freedesktop/utils.lua
 	install -m 644 debian/awesome/freedesktop/menu.lua debian/ralt-awesome/etc/xdg/awesome/freedesktop/menu.lua
