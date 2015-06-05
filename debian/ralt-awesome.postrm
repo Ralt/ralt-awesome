@@ -6,7 +6,7 @@ set -e
 
 db_get ralt_awesome/username
 
-rm -rf /home/${RET}/.config/awesome/{rc.lua,freedesktop,apw}
+rm -f /home/${RET}/.config/awesome
 
 if [ "$1" = "purge" -a -e /usr/share/debconf/confmodule ]; then
     # Source debconf library.

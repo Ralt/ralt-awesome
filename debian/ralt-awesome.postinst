@@ -10,4 +10,4 @@ systemctl enable xtrlock
 db_get ralt_awesome/username
 
 mkdir -p /home/${RET}/.config/
-ln -s /usr/share/ralt-awesome/awesome /home/${RET}/.config/awesome
+ln -sfn /usr/share/ralt-awesome/awesome /home/${RET}/.config/awesome
