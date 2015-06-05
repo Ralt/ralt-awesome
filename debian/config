@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+db_input medium ralt_awesome/username || true
+
+db_go || true

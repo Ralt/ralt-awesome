@@ -4,3 +4,11 @@ set -e
 
 # pyxtrlock
 systemctl enable xtrlock
+
+. /usr/share/debconf/confmodule
+
+db_get ralt_awesome/username
+
+mkdir -p /home/${RET}/.config/
+cp -r rc/awesome /home/${RET}/.config/
+chown -R ${RET} /home/${RET}/.config/awesome/
