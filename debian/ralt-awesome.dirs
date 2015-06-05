@@ -1,1 +1,4 @@
 etc/systemd/system
+usr/share/ralt-awesome
+usr/share/ralt-awesome/apw
+usr/share/ralt-awesome/freedesktop

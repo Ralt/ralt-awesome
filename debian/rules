@@ -6,3 +6,9 @@
 override_dh_auto_install:
 	dh_auto_install
 	install -m 644 debian/services/xtrlock.service debian/ralt-awesome/etc/systemd/system/xtrlock.service
+	install -m 644 debian/rc/awesome/rc.lua debian/ralt-awesome/usr/share/ralt-awesome/
+	install -m 644 debian/rc/awesome/freedesktop/utils.lua debian/ralt-awesome/usr/share/ralt-awesome/freedesktop/utils.lua
+	install -m 644 debian/rc/awesome/freedesktop/menu.lua debian/ralt-awesome/usr/share/ralt-awesome/freedesktop/menu.lua
+	install -m 644 debian/rc/awesome/freedesktop/desktop.lua debian/ralt-awesome/usr/share/ralt-awesome/freedesktop/desktop.lua
+	install -m 644 debian/rc/awesome/apw/widget.lua debian/ralt-awesome/usr/share/ralt-awesome/apw/widget.lua
+	install -m 644 debian/rc/awesome/apw/pulseaudio.lua debian/ralt-awesome/usr/share/ralt-awesome/apw/pulseaudio.lua
