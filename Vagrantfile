@@ -9,7 +9,7 @@ export DEBEMAIL DEBFULLNAME
 EOF
 
 sudo apt-get update
-sudo apt-get install build-essential debhelper -y
+sudo apt-get install build-essential debhelper devscripts -y
 SCRIPT
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure

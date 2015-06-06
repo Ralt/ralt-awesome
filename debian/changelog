@@ -1,7 +1,8 @@
-ralt-awesome (1.0-3) UNRELEASED; urgency=medium
+ralt-awesome (1.0-4) UNRELEASED; urgency=medium
 
   * Initial release.
   * Adds xorg dependency
   * Adds awesome-extra dependency
+  * Fixes debconf priority
 
- -- Florian Margaine <florian@margaine.com>  Sat, 06 Jun 2015 00:11:59 +0000
+ -- Florian Margaine <florian@margaine.com>  Sat, 06 Jun 2015 21:25:34 +0000
